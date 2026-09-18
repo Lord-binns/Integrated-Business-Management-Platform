@@ -21,7 +21,7 @@
       <nav class="nav-list">
         <a class="nav-item active" href="dashboard.php"><span class="nav-icon">▦</span> Register</a>
         <a class="nav-item" href="#orders"><span class="nav-icon">↗</span> Orders</a>
-        <a class="nav-item" href="#products"><span class="nav-icon">◇</span> Products</a>
+        <a class="nav-item" href="admin-dashboard.php"><span class="nav-icon">◇</span> Products</a>
         <a class="nav-item" href="#customers"><span class="nav-icon">◎</span> Customers</a>
       </nav>
       <div class="sidebar-footer">
