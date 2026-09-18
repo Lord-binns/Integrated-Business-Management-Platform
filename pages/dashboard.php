@@ -20,9 +20,7 @@
       </a>
       <nav class="nav-list">
         <a class="nav-item active" href="dashboard.php"><span class="nav-icon">▦</span> Register</a>
-        <a class="nav-item" href="#orders"><span class="nav-icon">↗</span> Orders</a>
         <a class="nav-item" href="admin-dashboard.php"><span class="nav-icon">◇</span> Products</a>
-        <a class="nav-item" href="#customers"><span class="nav-icon">◎</span> Customers</a>
       </nav>
       <div class="sidebar-footer">
         <div class="status-dot"></div>
@@ -46,13 +44,13 @@
         <section class="catalog-panel" aria-labelledby="catalog-title">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">Your inventory</p>
-              <h2 id="catalog-title">Product catalog</h2>
+              <p class="eyebrow">Quick sale</p>
+              <h2 id="catalog-title">Choose products</h2>
             </div>
             <button class="outline-button" type="button">+ Add product</button>
           </div>
           <div class="catalog-toolbar">
-            <label class="search-field"><span>⌕</span><input id="search" type="search" placeholder="Search products" aria-label="Search products"></label>
+            <label class="search-field"><span>⌕</span><input id="search" type="search" placeholder="Find a product" aria-label="Search products"></label>
             <div class="category-tabs" role="tablist" aria-label="Product categories">
               <button class="category-tab selected" type="button" data-category="All">All items</button>
               <button class="category-tab" type="button" data-category="Coffee">Coffee</button>
