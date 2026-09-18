@@ -8,18 +8,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="assets/js/app.js" defer></script>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/app.js" defer></script>
 </head>
 <body>
   <main class="app-shell">
     <aside class="sidebar" aria-label="Primary navigation">
-      <a class="brand" href="#" aria-label="Counter home">
+      <a class="brand" href="../index.php" aria-label="Counter home">
         <span class="brand-mark">C</span>
         <span>counter</span>
       </a>
       <nav class="nav-list">
-        <a class="nav-item active" href="#catalog"><span class="nav-icon">▦</span> Register</a>
+        <a class="nav-item active" href="dashboard.php"><span class="nav-icon">▦</span> Register</a>
         <a class="nav-item" href="#orders"><span class="nav-icon">↗</span> Orders</a>
         <a class="nav-item" href="#products"><span class="nav-icon">◇</span> Products</a>
         <a class="nav-item" href="#customers"><span class="nav-icon">◎</span> Customers</a>
