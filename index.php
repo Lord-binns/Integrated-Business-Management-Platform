@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Counter point of sale workspace.">
-  <title>Counter | Welcome</title>
+  <meta name="description" content="Shop the Counter online store.">
+  <title>Counter | Online store</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -14,12 +14,12 @@
   <main class="entry-page">
     <div class="entry-copy">
       <a class="page-brand" href="index.php"><span class="brand-mark">C</span><span>counter</span></a>
-      <p class="eyebrow">Point of sale workspace</p>
-      <h1>Everything your counter needs, in one place.</h1>
-      <p class="intro">Manage sales, products, and customers from a calm, focused register.</p>
+      <p class="eyebrow">The Counter online store</p>
+      <h1>Good things, ready for your cart.</h1>
+      <p class="intro">Discover our collection, save your favorites, and place your next order in a few simple steps.</p>
       <div class="entry-actions">
         <a class="primary-link" href="pages/login.php">Sign in <span>→</span></a>
-        <a class="secondary-link" href="pages/dashboard.php">Open dashboard</a>
+        <a class="secondary-link" href="pages/dashboard.php">Browse products</a>
       </div>
     </div>
     <div class="entry-preview" aria-label="Dashboard preview">

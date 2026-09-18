@@ -68,7 +68,7 @@ function renderCart() {
   subtotalElement.textContent = formatMoney(subtotal);
   taxElement.textContent = formatMoney(tax);
   totalElement.textContent = formatMoney(total);
-  chargeButton.textContent = `Charge ${formatMoney(total)}`;
+  chargeButton.textContent = `Checkout · ${formatMoney(total)}`;
   const arrow = document.createElement("span");
   arrow.textContent = "→";
   chargeButton.append(arrow);
@@ -91,7 +91,7 @@ document.addEventListener("click", (event) => {
   const decreaseButton = event.target.closest("[data-decrease]");
   if (decreaseButton) updateQuantity(Number(decreaseButton.dataset.decrease), -1);
   if (event.target.closest(".add-note")) showToast("Notes can be added at checkout.");
-  if (event.target.closest("#charge-button") && !chargeButton.disabled) showToast("Payment flow ready to connect.");
+  if (event.target.closest("#charge-button") && !chargeButton.disabled) showToast("Checkout is ready to connect.");
 });
 
 document.querySelectorAll(".category-tab").forEach((button) => {

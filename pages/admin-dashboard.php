@@ -17,7 +17,7 @@
     <aside class="sidebar" aria-label="Primary navigation">
       <a class="brand" href="../index.php" aria-label="Counter home"><span class="brand-mark">C</span><span>counter</span></a>
       <nav class="nav-list">
-        <a class="nav-item" href="dashboard.php"><span class="nav-icon">▦</span> Register</a>
+        <a class="nav-item" href="dashboard.php"><span class="nav-icon">▦</span> Storefront</a>
         <a class="nav-item active" href="admin-dashboard.php"><span class="nav-icon">◇</span> Products</a>
         <a class="nav-item" href="#orders"><span class="nav-icon">↗</span> Orders</a>
         <a class="nav-item" href="#customers"><span class="nav-icon">◎</span> Customers</a>
